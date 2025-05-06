@@ -13,7 +13,7 @@ const {
 // Setup
 app.use(express.json());
 app.use(express.static('public'));
-
+//
 // Views
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views/index.html'));
